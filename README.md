@@ -1,12 +1,96 @@
-# React + Vite
+# 🎲 DiceApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**DiceApp** is a modern React-based web application built using **Vite**, showcasing interactive dice functionality. This app allows users to simulate rolling dice in a fun, responsive UI, with added animations and effects for engagement.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+| Layer         | Technology                      |
+|---------------|----------------------------------|
+| Frontend      | React 19, React DOM             |
+| Build Tool    | Vite                            |
+| Effects       | React Confetti                  |
+| Utilities     | nanoid-dictionary               |
+| Linting       | ESLint, React Hooks Plugins     |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+diceapp/
+├── public/ # Static files
+├── src/ # Main application code
+│ ├── components/ # React components
+│ ├── App.jsx # Root component
+│ └── main.jsx # App entry point
+├── index.html # HTML template
+├── package.json # Project metadata & scripts
+├── vite.config.js # Vite configuration
+└── .eslintrc.js # Linting rules
+
+yaml
+Copy
+Edit
+
+---
+
+## 🔧 Getting Started
+
+### Prerequisites
+
+- Node.js ≥ 18
+- npm ≥ 9
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/diceapp.git
+cd diceapp
+
+# Install dependencies
+npm install
+Running the App
+bash
+Copy
+Edit
+# Start development server
+npm run dev
+
+# Preview production build
+npm run preview
+
+# Build for production
+npm run build
+
+# Lint code
+npm run lint
+✨ Features
+🎲 Simulate rolling dice with smooth animation
+
+🎉 Celebrate special rolls with confetti effects
+
+🧠 Clean React architecture using functional components
+
+⚡ Lightning-fast dev experience powered by Vite
+
+🧼 Code quality ensured with ESLint and plugin integrations
+
+📸 Screenshots
+Add gameplay screenshots or demo gifs here
+
+📄 License
+This project is licensed under the MIT License.
+Feel free to use, modify, and share!
+
+🙌 Acknowledgements
+React
+
+Vite
+
+React Confetti
+
+Nanoid Dictionary
+
+
