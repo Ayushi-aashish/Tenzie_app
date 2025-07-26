@@ -29,9 +29,6 @@ diceapp/
 ├── vite.config.js # Vite configuration
 └── .eslintrc.js # Linting rules
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -66,7 +63,7 @@ npm run build
 
 # Lint code
 npm run lint
-
+---
 __✨ Features__
 🎲 Simulate rolling dice with smooth animation
 
@@ -77,13 +74,15 @@ __✨ Features__
 ⚡ Lightning-fast dev experience powered by Vite
 
 🧼 Code quality ensured with ESLint and plugin integrations
+---
 
 __📸 Screenshots__
 Add gameplay screenshots or demo gifs here
-
+---
 __📄 License__
 This project is licensed under the MIT License.
 Feel free to use, modify, and share!
+---
 
 __🙌 Acknowledgements__
 React
