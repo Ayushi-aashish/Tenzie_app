@@ -66,7 +66,8 @@ npm run build
 
 # Lint code
 npm run lint
-##✨ Features
+
+__✨ Features__
 🎲 Simulate rolling dice with smooth animation
 
 🎉 Celebrate special rolls with confetti effects
@@ -77,14 +78,14 @@ npm run lint
 
 🧼 Code quality ensured with ESLint and plugin integrations
 
-##📸 Screenshots
+__📸 Screenshots__
 Add gameplay screenshots or demo gifs here
 
-##📄 License
+__📄 License__
 This project is licensed under the MIT License.
 Feel free to use, modify, and share!
 
-##🙌 Acknowledgements
+__🙌 Acknowledgements__
 React
 
 Vite
